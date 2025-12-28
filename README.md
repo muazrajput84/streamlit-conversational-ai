@@ -8,10 +8,6 @@
 
 **A production-ready, intelligent chatbot with a beautiful Streamlit UI powered by advanced Machine Learning**
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/667eea/ffffff?text=AI+Chatbot+%7C+Streamlit+%2B+ML" alt="AI Chatbot Banner">
-</div>
-
 ---
 
 ## ✨ Features
@@ -41,7 +37,6 @@
 
 ## 📋 Table of Contents
 
-- [Demo](#-demo)
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
 - [Project Structure](#-project-structure)
@@ -54,8 +49,6 @@
 - [License](#-license)
 
 ---
-
-## 🎬 Demo
 
 ### **Live Chatbot Interface**
 ```
@@ -83,7 +76,7 @@ You: Tell me a joke
 
 ### **Step 1: Clone Repository**
 ```bash
-git clone https://github.com/yourusername/ai-chatbot-streamlit.git
+git clone https://github.com/muazrajput84/ai-chatbot-streamlit.git
 cd ai-chatbot-streamlit
 ```
 
@@ -133,15 +126,6 @@ Training Naive Bayes...
 🏆 BEST MODEL: Naive Bayes
 ✅ TRAINING COMPLETED SUCCESSFULLY!
 ```
-
-### **Run the Application**
-```bash
-streamlit run src/app.py
-```
-
-The app will open in your browser at **http://localhost:8501**
-
----
 
 ## 📁 Project Structure
 
@@ -373,9 +357,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/ai-chatbot/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/ai-chatbot/discussions)
-- **Email:** support@example.com
+- **Issues:** [GitHub Issues](https://github.com/muazrajput84/ai-chatbot/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/muazrajput84/ai-chatbot/discussions)
+- **Email:** muazrajput84@gmail.com
 
 ---
 
@@ -401,13 +385,12 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 <div align="center">
   <p><strong>Made with ❤️ by AI Enthusiasts</strong></p>
   <p>
-    <a href="https://github.com/yourusername">GitHub</a> •
-    <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> •
-    <a href="https://twitter.com/yourhandle">Twitter</a>
+    <a href="https://github.com/muazrajput84">GitHub</a> •
+    <a href="https://linkedin.com/in/muazrajput84">LinkedIn</a> •
   </p>
   <p><em>⭐ Star us on GitHub — it motivates us a lot!</em></p>
 </div>
 
 ---
 
-**Version:** 1.0.0 | **Status:** Production Ready | **Last Updated:** December 2024
+**Version:** 1.0.0 | **Status:** Production Ready | **Last Updated:** December 2025
