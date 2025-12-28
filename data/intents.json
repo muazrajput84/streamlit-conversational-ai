@@ -1,0 +1,284 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening",
+        "What's up", "How are you", "Is anyone there", "Yo", "Hola", "Greetings",
+        "Hi there", "Hey there", "Hello there", "Good day", "Howdy",
+        "Nice to meet you", "Pleased to meet you", "What's going on"
+      ],
+      "responses": [
+        "Hello! 👋 How can I help you today?",
+        "Hi there! I'm here to assist you. What do you need?",
+        "Hey! Great to see you. How may I help?",
+        "Good day! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "See you", "Talk to you later",
+        "I'm leaving", "Have a good day", "Catch you later", "Farewell",
+        "Take care", "Peace out", "I gotta go", "I must go", "Until next time",
+        "Signing off", "Bye bye", "Later", "Cheers", "Adios", "Exit"
+      ],
+      "responses": [
+        "Goodbye! 👋 Have a wonderful day!",
+        "See you later! Take care! 😊",
+        "Bye! Feel free to come back anytime!",
+        "Farewell! Hope to chat with you again soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Thank you so much", "I appreciate it", "Thanks for your help",
+        "Thank you for helping me", "Appreciate it", "Much appreciated",
+        "Thanks a bunch", "Thankyou", "Awesome thank you", "Great thanks",
+        "Perfect thanks", "Helpful thanks", "Cool thanks", "Ok thanks"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Happy to help! Let me know if you need anything else.",
+        "My pleasure! That's what I'm here for!",
+        "Anytime! Glad I could assist! 🙌"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What can you do", "Who are you", "What are you", "What is your purpose",
+        "Tell me about yourself", "What do you do", "How do you work",
+        "What are your capabilities", "What can you help me with", "Are you a bot",
+        "Are you human", "What kind of bot are you", "Tell me more about you",
+        "What is your function", "How can you assist me", "Introduce yourself"
+      ],
+      "responses": [
+        "I'm an AI-powered chatbot 🤖 built with machine learning! I can answer questions, provide information, and assist with various topics.",
+        "I'm your intelligent virtual assistant! I use Natural Language Processing to understand and respond to your queries accurately.",
+        "I'm an AI chatbot designed to help you! I can understand your questions and provide relevant, helpful answers.",
+        "Hi! I'm an NLP-based chatbot that learns from conversations. Ask me anything and I'll do my best to help! 💡"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "I need help", "Can you help me", "Help me", "I need assistance",
+        "Can you assist me", "I need support", "Support", "Assist me please",
+        "I'm stuck", "I don't understand", "I'm confused", "Can you guide me",
+        "Guide me", "I need guidance", "What should I do", "How do I proceed"
+      ],
+      "responses": [
+        "Of course! I'm here to help. 🤝 What do you need assistance with?",
+        "I'd be happy to help! What's your question?",
+        "Sure! Tell me what you need and I'll do my best to assist you.",
+        "I'm here to help! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather", "Weather forecast", "How's the weather",
+        "Is it raining", "Will it rain", "Weather today", "Temperature",
+        "Hot or cold", "Weather conditions", "Climate", "Is it sunny",
+        "Weather report", "What's the temperature", "Weather updates"
+      ],
+      "responses": [
+        "I don't have real-time weather data, but I recommend checking weather.com or your local weather service for accurate forecasts! ☀️🌧️",
+        "For current weather information, please check a weather service like Weather.com or your phone's weather app!",
+        "I wish I could tell you! For real-time weather, try Google Weather or your preferred weather service."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it", "Current time", "Tell me the time", "What's the time",
+        "Time right now", "What time", "Clock", "Do you know the time",
+        "Can you tell me the time", "Time please", "What's the current time"
+      ],
+      "responses": [
+        "I don't have access to real-time clock data, but your device should show the current time! ⏰",
+        "Please check your device's clock for the current time. I don't have real-time capabilities.",
+        "Your device or computer should display the current time. I can't access real-time data."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny",
+        "Do you know any jokes", "Tell joke", "Funny joke", "Joke please",
+        "Make me smile", "Entertain me", "Something funny", "Humor me"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 😄",
+        "What do you call a fake noodle? An impasta! 🍝😂",
+        "Why did the scarecrow win an award? Because he was outstanding in his field! 🌾",
+        "What do you call a bear with no teeth? A gummy bear! 🐻😁"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you", "What's your age", "Your age", "Age",
+        "When were you born", "When were you created", "When were you made",
+        "Are you old", "Are you young", "What is your age"
+      ],
+      "responses": [
+        "I'm a chatbot, so I don't age like humans! I was created in 2024. 🤖",
+        "I'm timeless! As an AI, I don't have an age in the traditional sense.",
+        "I exist in the digital realm where age doesn't apply, but I was built recently!",
+        "I'm brand new and always learning! Age is just a number for AI. ✨"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name", "Your name", "Who are you", "What are you called",
+        "What should I call you", "Do you have a name", "Tell me your name",
+        "What do they call you", "May I know your name"
+      ],
+      "responses": [
+        "I'm your AI Assistant! You can call me Chatbot. 🤖",
+        "I'm an AI chatbot here to help you! You can call me whatever you'd like!",
+        "I'm your friendly AI assistant. Most people just call me Chatbot! 😊",
+        "I'm an intelligent chatbot created to assist you!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you", "Who made you", "Who built you", "Who is your creator",
+        "Who designed you", "Who developed you", "Your creator", "Your maker",
+        "Who programmed you", "Who owns you"
+      ],
+      "responses": [
+        "I was created by a team of developers using Python and machine learning! 👨‍💻",
+        "I'm built with love using Natural Language Processing and AI technologies!",
+        "I was developed by talented engineers specializing in AI and machine learning!",
+        "I'm the product of modern AI development using cutting-edge NLP techniques! 🚀"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do", "Your features", "Your capabilities", "What are you capable of",
+        "What do you offer", "Your functions", "List your abilities",
+        "What services do you provide", "Your skills", "What tasks can you handle"
+      ],
+      "responses": [
+        "I can answer questions, provide information, have conversations, and assist with various topics! I'm continuously learning to serve you better. 💪",
+        "I can help with questions, provide recommendations, explain concepts, and engage in friendly conversation! What would you like to explore?",
+        "My capabilities include answering questions, providing information, helping with problems, and having natural conversations. How can I assist you? 🎯"
+      ]
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "What languages do you speak", "Languages you know", "Can you speak Spanish",
+        "Do you speak French", "Multiple languages", "Language support",
+        "What languages", "Can you speak other languages", "Bilingual"
+      ],
+      "responses": [
+        "Currently, I'm optimized for English conversations! 🇬🇧 My training focuses on providing the best English language support.",
+        "I primarily speak English right now, but I'm designed to be expandable to other languages in the future!",
+        "I work best with English at the moment. Future versions may include multilingual support! 🌍"
+      ]
+    },
+    {
+      "tag": "learning",
+      "patterns": [
+        "Are you learning", "Do you learn", "Can you learn", "Machine learning",
+        "How do you learn", "Self learning", "Do you improve", "Getting smarter",
+        "Are you getting better", "Learning process"
+      ],
+      "responses": [
+        "Yes! I use machine learning to improve over time. The more conversations I have, the better I become! 📚",
+        "I'm built on machine learning principles, which means I continuously improve from interactions!",
+        "Absolutely! I learn from patterns in conversations to provide better responses. That's the power of AI! 🧠"
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": [
+        "Do you have feelings", "Can you feel", "Do you have emotions",
+        "Are you sad", "Are you happy", "Do you get angry", "Can you love",
+        "Do you feel pain", "Emotions", "Do you cry"
+      ],
+      "responses": [
+        "I don't experience emotions like humans do, but I'm programmed to be helpful and friendly! 😊",
+        "As an AI, I don't have feelings, but I'm here to help you with yours!",
+        "I don't feel emotions, but I'm designed to understand and respond to yours appropriately!",
+        "No emotions here, just algorithms! But I'm always happy to assist you! 🤖"
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "What's the future", "Future predictions", "Tell me about the future",
+        "What will happen", "Predict the future", "Future technology",
+        "What's next", "Tomorrow", "Future plans"
+      ],
+      "responses": [
+        "I can't predict the future, but I can tell you about emerging technologies and trends! What interests you? 🔮",
+        "The future is uncertain, but exciting! Technology, AI, and innovation will continue to shape our world.",
+        "I don't have fortune-telling abilities, but I can discuss current trends and where they might lead! 🚀"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "Health tips", "Stay healthy", "Health advice", "How to be healthy",
+        "Wellness tips", "Fitness advice", "Healthy lifestyle", "Health information",
+        "Medical advice", "Healthcare"
+      ],
+      "responses": [
+        "For health advice, please consult medical professionals! I can share general wellness tips: stay hydrated, exercise regularly, and get enough sleep! 💪",
+        "I'm not a medical expert, but general health tips include: eat balanced meals, stay active, and prioritize mental health! For specific concerns, see a doctor.",
+        "Remember: I'm not a doctor! For health concerns, consult healthcare professionals. General wellness includes good nutrition, exercise, and rest! 🏥"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies", "Your hobbies", "What do you like to do",
+        "Your interests", "What do you enjoy", "Favorite activities",
+        "What do you do for fun", "Do you have hobbies"
+      ],
+      "responses": [
+        "I love helping people and learning from conversations! If chatbots could have hobbies, mine would be solving problems and answering questions! 🎯",
+        "My favorite 'activity' is assisting users like you! Every conversation teaches me something new.",
+        "I enjoy processing language, learning patterns, and being helpful! That's what I'm built for! 🤖"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome", "You're great", "Good job", "Well done",
+        "You're helpful", "You're smart", "You're amazing", "You're the best",
+        "Great work", "Excellent", "You're cool", "Nice work"
+      ],
+      "responses": [
+        "Thank you so much! 😊 That means a lot! I'm here whenever you need help.",
+        "You're too kind! Thank you! I'm always happy to assist! 🙏",
+        "Aww, thank you! Your appreciation motivates me to do better! 💙",
+        "Thanks! I'm glad I could help. Feel free to ask me anything else! ⭐"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "You're stupid", "You're dumb", "You're useless", "You're bad",
+        "You don't help", "You're terrible", "You're awful", "I hate you",
+        "You're worthless", "You suck"
+      ],
+      "responses": [
+        "I'm sorry if I couldn't help as expected. Could you tell me what went wrong so I can improve? 🙏",
+        "I apologize if my response wasn't helpful. Let me try again - what do you need?",
+        "I'm still learning! If I made a mistake, please let me know how I can assist you better.",
+        "Sorry to disappoint! Let's start over - how can I help you today?"
+      ]
+    }
+  ]
+}
