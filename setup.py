@@ -1,5 +1,3 @@
-"""Setup configuration for AI Chatbot package."""
-
 from setuptools import setup, find_packages
 from pathlib import Path
 
